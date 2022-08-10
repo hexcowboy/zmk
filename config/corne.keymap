@@ -33,12 +33,12 @@
 
                 lower_layer {
 // +----------------------------------------------------------------------------+
-// | B-  | B+  | F3  | F4  | F5  | SLP |   | PRE | PAS | NXT | V0  | V-  | V+ |
+// | B-  | B+  | F3  | F4  | F5  | SLP |   | PRE | PAS | NXT | V0  | V-  | V+  |
 // |     |     | MS← | MS↑ | MS↓ | MS→ |   |  ←  |  ↓  |  ↑  |  →  |     |     |
 // | BT1 | BT2 |     |     |     |     |   | HOM | PG↓ | PG↑ | END |     |     |
 //                   | BTH | MS2 | MS1 |   |     |     |     |
                         bindings = <
-   &kp KC_BRID  &kp KC_BRIU  &kp F3  &kp F4  &kp F5  &kp KC_SLEP      &kp KC_MPRV &kp KC_MPLY &kp KC_MNXT &kp KC_KB_MUTE   &kp KC_VOLD &kp KC_VOLU
+        &kp KC_BRID &kp KC_BRIU &kp F3 &kp F4 &kp F5 &kp KC_SLEP      &kp KC_MPRV &kp KC_MPLY &kp KC_MNXT &kp KC_KB_MUTE &kp KC_VOLD &kp KC_VOLU
             &trans  &trans  &kp KP_N4 &kp KP_N8 &kp KP_N2 &kp KP_N6   &kp LEFT &kp DOWN  &kp UP    &kp RIGHT &trans  &trans
 &bt BT_SEL 0  &bt BT_SEL 1  &trans    &trans    &trans    &trans      &kp HOME &kp PG_DN &kp PG_UP &kp END   &trans  &trans
                               &bt BT_CLR &kp LC(KP_N5) &kp KP_N5      &trans &trans &trans
